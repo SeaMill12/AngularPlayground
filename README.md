@@ -22,7 +22,7 @@ ng serve angular-playground
 To create a component, you will first need to navigate to the correct directory where you want the package to be located. Then you will use angular to generate the library files. The following command will create a library that you can use in the application
 
 ```
-ng generate library ${component-name} --entry-file=public-api
+ng generate library component-name --entry-file=public-api
 ```
 This will create a number of files.
 ```
